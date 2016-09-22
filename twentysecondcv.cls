@@ -19,9 +19,12 @@
 \RequirePackage{pgffor}
 \RequirePackage{marvosym}
 \RequirePackage{parskip}
+\RequirePackage{enumitem}
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions\relax
+\hypersetup{colorlinks=true}
+
 
 %----------------------------------------------------------------------------------------
 %	 COLOURS
@@ -44,6 +47,8 @@
 \pagestyle{empty} % Disable headers and footers
 
 \setlength{\parindent}{0pt} % Disable paragraph indentation
+
+\setlist[itemize]{leftmargin=*} % Remove natural indent from lists
 
 %----------------------------------------------------------------------------------------
 %	 SIDEBAR DEFINITIONS
@@ -140,13 +145,13 @@
 			\ifthenelse{\equal{\cvdate}{}}{}{\textsc{\Large\icon{\Info}} & \cvdate\\}
 			\ifthenelse{\equal{\cvaddress}{}}{}{\textsc{\Large\icon{\Letter}} & \cvaddress\\}
 			\ifthenelse{\equal{\cvnumberphone}{}}{}{\textsc{\Large\icon{\Telefon}} & \cvnumberphone\\}
-			\ifthenelse{\equal{\cvsite}{}}{}{\textsc{\Large\icon{\Mundus}} & \cvsite\\}
+			\ifthenelse{\equal{\cvsite}{}}{}{\textsc{\Large\icon{\Mundus}} & \href{\cvsite}{\color{blue}\cvsite}\\}
 			\ifthenelse{\equal{\cvmail}{}}{}{\textsc{\large\icon{@}} & \href{mailto:\cvmail}{\cvmail}}
 		\end{tabular}
 
 		%------------------------------------------------
 
-		\profilesection{About me}{2.6cm}
+		\profilesection{About me}{3.0cm}
 			
 		\begin{flushleft}
 			\aboutme
@@ -154,7 +159,7 @@
 
 		%------------------------------------------------
 
-		\profilesection{Skills}{0.8cm}
+		\profilesection{Skills}{2.8cm}
 
 		\skills
 		\scriptsize
