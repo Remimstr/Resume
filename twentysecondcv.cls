@@ -13,6 +13,7 @@
 \RequirePackage[absolute,overlay]{textpos}
 \RequirePackage{ragged2e}
 \RequirePackage{etoolbox}
+\RequirePackage{hyperref}
 \RequirePackage{ifmtarg}
 \RequirePackage{ifthen}
 \RequirePackage{pgffor}
@@ -82,19 +83,6 @@
 				\draw[fill=white,lightgreen](0,\i) rectangle (\y,\i+0.4);
 				\node [above right] at (0,\i+0.4) {\x};
 			}
-		\end{tikzpicture}
-	}
-}
-
-% Command for printing skill progress bars
-\newcommand\softskills[1]{ 
-	\renewcommand{\softskills}{
-		\begin{tikzpicture}
-		\foreach [count=\i] \x/\y in {#1}{
-			\draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
-			\draw[fill=white,lightblue](0,\i) rectangle (\y,\i+0.4);
-			\node [above right] at (0,\i+0.4) {\x};
-		}
 		\end{tikzpicture}
 	}
 }
@@ -256,10 +244,11 @@
 
 \newcommand{\twentyitem}[4]{%
 	#1&\parbox[t]{0.83\textwidth}{%
-		\textbf{#2}%
+		#2%
 		\hfill%
-		{\footnotesize#3}\\%
-		#4\vspace{\parsep}%
+		{\footnotesize#3}%
+		\vspace{\parsep}%
+		\textbf{#4}\vspace{\parsep}%
 	}\\
 }
 
