@@ -151,7 +151,7 @@
 
 		%------------------------------------------------
 
-		\profilesection{About me}{3.0cm}
+		\profilesection{About me}{2.7cm}
 			
 		\begin{flushleft}
 			\aboutme
@@ -159,7 +159,7 @@
 
 		%------------------------------------------------
 
-		\profilesection{Skills}{2.8cm}
+		\profilesection{Skills}{4.1cm}
 
 		\skills
 		\scriptsize
