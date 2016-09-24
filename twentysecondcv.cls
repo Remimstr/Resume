@@ -116,15 +116,6 @@
 	%------------------------------------------------
 
 	\begin{textblock}{6}(0.5, 0.4)
-			
-		%------------------------------------------------
-		
-		%\begin{center}
-		%	\begin{tikzpicture}[x=\imagescale,y=-\imagescale]
-		%		\clip (600/2, 567/2) circle (567/2);
-		%		\node[anchor=north west, inner sep=0pt, outer sep=0pt] at (0,0) %{\includegraphics[width=\imagewidth]{\profilepic}};
-		%	\end{tikzpicture}
-		%\end{center}
 
 		%------------------------------------------------
 
@@ -194,7 +185,6 @@
 	{%
 		\round{#1}{
 			\ifcase\value{colorCounter}%
-			maingray\or%
 			mainblue\or%
 			maingray\or%
 			mainblue\or%
@@ -202,9 +192,10 @@
 			mainblue\or%
 			maingray\or%
 			mainblue\or%
- 			maingray\or%
-			mainblue\else%
-			maingray\fi%
+			maingray\or%
+ 			mainblue\or%
+			maingray\else%
+			mainblue\fi%
 		}%
 	}%
 	\stepcounter{colorCounter}%
