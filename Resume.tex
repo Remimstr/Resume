@@ -1,0 +1,187 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.0 (14/7/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{} % Profile picture
+
+\cvname{Remi Marchand} % Your name
+\cvjobtitle{3B Honours Biology,} % Job title/career
+\cvsubtitle{Computer Science Minor}
+
+\cvdate{}
+\cvaddress{Richmond Hill, ON} % Short address/location, use \newline if more than 1 line is required
+\cvsite{https://github.com/Remimstr} % Personal website
+\cvnumberphone{(647) 995-3645} % Phone number
+\cvmail{remimarchand@mail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{\begin{itemize}
+		\renewcommand\labelitemi{--}
+		\item{Experience solving big problems in biology using computational approaches}
+		\item{Excited by new challenges; I love being thrown into the "deep end" of a project}
+		\item{Passionate being part of a team that accomplishes ambitious goals}
+		\item{Coursework and self-taught in Python and Bash; Some Java, C, PHP, SQL, R, and HTML}
+		\item{Familiar writing clean, modular code, and using VCS such as Git}
+		\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{{Passion for Aquiring New Skills/5.9},
+		{Web Development/1.5},
+		{VCS - Git/3},
+		{Data Science/4.5},
+		{Python/4.0},
+		{Java/1.5},
+		{C/2.3}}
+
+
+%----------------------------------------------------------------------------------------
+%	 HOBBIES
+%----------------------------------------------------------------------------------------
+
+
+\hobbies{\begin{itemize}
+		\renewcommand\labelitemi{--}
+		\item{Shameless music nerd; Pianist, violinist, and composer. Check out: \href{https://soundcloud.com/remi-marchand}{\color{blue}https://soundcloud.com/remi-marchand}}
+		\item{Self-taught chinese home cook; Signature dish: sweet and sour fish tiles}
+		\item{Fitness enthusiast in training}
+		\end{itemize}
+}
+
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\begin{twenty} % Environment for a list with descriptions, where descriptions are in list format
+	\twentyitem{Fall 2016}{Bioinformatics Support}{Neufeld Lab, Waterloo}{
+		\begin{itemize}
+			\item{Performed maintenance and support for servers and backups}
+			\item{Created and modified scripts as required by teams of researchers for their specific projects}
+ 			\item{Prioritized tasks and documented work carefully through github}
+		\end{itemize}}
+	\twentyitem{Spring 2016}{Bioinformatics Research Assistant}{National Microbiology Laboratory, Guelph}{
+		\begin{itemize}
+			\item{Created tools in python for the curation of > 63,000 Salmonella samples resulting in a comprehensive collection of metadata to be used for analysis}
+			\item{Implemented automation using custom spellchecker and controlled list modules reducing manual curation required}
+			\item{Code at: \href{https://github.com/Remimstr/Standardize_Metadata}{\color{blue}https://github.com/Remimstr/Standardize\_Metadata}}
+		\end{itemize}}
+	\twentyitem{Fall 2015}{Computational Cancer Genomics}{SickKids Hospital, Toronto}{
+		\begin{itemize}
+			\item{Worked as part of a team to characterize paediatric cancer samples using a high performance computing cluster}
+			\item{Reduced the number of false positive translocations called by our pipeline 10-fold; from an average of 150 to an average of 16}
+			\item{Designed and wrote a novel tool in python that used translocation events to predict tumor evolution}
+		\end{itemize}}
+	\twentyitem{Winter 2015}{Instructional Support Assistant}{Faculty of Math, University of Waterloo}{
+		\begin{itemize}
+			\item{Supported students learning computer science for the first time by hosting office hours and providing 1-on-1 guidance}
+		\end{itemize}}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+
+%----------------------------------------------------------------------------------------
+%	 Volunteer Experience
+%----------------------------------------------------------------------------------------
+
+\section{Volunteer Experience}
+
+\begin{twenty} % Environment for a list with descriptions, where descriptions are in list format
+	\twentyitem{Fall 2016}{Science Ambassador}{Faculty of Science, University of Waterloo}{
+		\begin{itemize}
+			\item{Provided insights into life as a Waterloo science student to\\prospective students}
+		\end{itemize}}
+		\twentyitem{Winter 2015}{Course Notes Editor}{Dr. Kirsten M. Muller, University of Waterloo}{
+		\begin{itemize}
+			\item{Applied command of the English language to improve course notes for a first year biology class}
+		\end{itemize}}
+	\twentyitem{2013-2014}{Advanced Medical First Responder}{UW Campus Response Team}{
+		\begin{itemize}
+			\item{Volunteered close to ninety hours to provide first aid on campus}
+		\end{itemize}}
+			%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 Relevant Courses
+%----------------------------------------------------------------------------------------
+
+\section{Relevant Courses}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{Fall 2016}{CS 234 - Data Types and Structures}{}{
+		\begin{itemize}
+			\item{Learned to choose and implement the appropriate abstract data type(s) and algorithm(s) for the job}
+			\item{Analysis of running time, testing and debugging of code}
+		\end{itemize}}
+	\twentyitem{Fall 2016}{CS 330 - Management Information Systems}{}{
+		\begin{itemize}
+			\item{Gained an understanding of the role of IT in business systems\\ including databases, internet protocols, and development cycles}
+		\end{itemize}}
+	\twentyitem{Winter 2016}{CS 230 - Introduction to Computers and Computer Systems}{}{
+		\begin{itemize}
+			\item{Expanded on foundational CS knowledge in the areas of memory management, multiprocessing, threading, and more}
+		\end{itemize}}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+
+%----------------------------------------------------------------------------------------
+%	 Awards
+%----------------------------------------------------------------------------------------
+
+\section{Awards}
+
+\begin{twentyshort} % Environment for a short list with no descriptions
+	\twentyitemshort{Winter 2016}{Dean's Honour List}
+	\twentyitemshort{April 2014}{Grebel Student Life Award for contributions to residence}
+	\twentyitemshort{June 2013}{English and Music Awards, Grade 12}
+	\twentyitemshort{June 2010}{First Class Honours with Distinction for 90\% on grade 10 piano exam}
+	%\twentyitemshort{<dates>}{<title/description>}
+\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
