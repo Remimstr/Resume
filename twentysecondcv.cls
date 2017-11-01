@@ -33,9 +33,9 @@
 \definecolor{white}{RGB}{255,255,255}
 \definecolor{gray}{HTML}{4D4D4D}
 \definecolor{sidecolor}{HTML}{E7E7E7}
-\definecolor{mainblue}{HTML}{FF872E}
+\definecolor{maincolor}{HTML}{FF0000}
 \definecolor{maingray}{HTML}{B9B9B9}
-\definecolor{lightblue}{HTML}{96FFE8}
+\definecolor{lightblue}{HTML}{00B300}
 \definecolor{lightgreen}{HTML}{49CA49}
 
 %----------------------------------------------------------------------------------------
@@ -78,7 +78,7 @@
 \newcommand{\cvsubtitle}[1]{\renewcommand{\cvsubtitle}{#1}}
 
 % Command for printing the contact information icons
-\newcommand*\icon[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=1pt, fill=mainblue,mainblue,text=white] (char) {#1};}}
+\newcommand*\icon[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=1pt, fill=maincolor,maincolor,text=white] (char) {#1};}}
 
 % Command for printing skill progress bars
 \newcommand\skills[1]{ 
@@ -104,6 +104,8 @@
 	}
 }
 
+\newcommand{\skillz}[1]{\renewcommand{\skillz}{#1}}
+
 %----------------------------------------------------------------------------------------
 %	 SIDEBAR LAYOUT
 %----------------------------------------------------------------------------------------
@@ -119,7 +121,7 @@
 
 		%------------------------------------------------
 
-		{\Huge\color{mainblue}\cvname}
+		{\Huge\color{maincolor}\cvname}
 
 		%------------------------------------------------
 
@@ -151,10 +153,13 @@
 
 		%------------------------------------------------
 
-		\profilesection{Skills}{4.1cm}
+		\profilesection{Computer Skills}{0.7cm}
+		
+		\begin{flushleft}
+			\skillz
+		\end{flushleft}
 
-		\skills
-		\scriptsize
+
 		%(*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]
 		
 		%------------------------------------------------
@@ -185,17 +190,17 @@
 	{%
 		\round{#1}{
 			\ifcase\value{colorCounter}%
-			mainblue\or%
+			maincolor\or%
 			maingray\or%
-			mainblue\or%
+			maincolor\or%
 			maingray\or%
-			mainblue\or%
+			maincolor\or%
 			maingray\or%
-			mainblue\or%
+			maincolor\or%
 			maingray\or%
- 			mainblue\or%
+ 			maincolor\or%
 			maingray\else%
-			mainblue\fi%
+			maincolor\fi%
 		}%
 	}%
 	\stepcounter{colorCounter}%
