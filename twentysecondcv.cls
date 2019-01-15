@@ -33,7 +33,7 @@
 \definecolor{white}{RGB}{255,255,255}
 \definecolor{gray}{HTML}{4D4D4D}
 \definecolor{sidecolor}{HTML}{E7E7E7}
-\definecolor{maincolor}{HTML}{FF0000}
+\definecolor{maincolor}{HTML}{2eb82e}
 \definecolor{maingray}{HTML}{B9B9B9}
 \definecolor{lightblue}{HTML}{00B300}
 \definecolor{lightgreen}{HTML}{49CA49}
@@ -81,7 +81,7 @@
 \newcommand*\icon[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=1pt, fill=maincolor,maincolor,text=white] (char) {#1};}}
 
 % Command for printing skill progress bars
-\newcommand\skills[1]{ 
+\newcommand\skills[1]{
 	\renewcommand{\skills}{
 		\begin{tikzpicture}
 			\foreach [count=\i] \x/\y in {#1}{
@@ -94,10 +94,10 @@
 }
 
 % Command for printing skills text
-\newcommand\skillstext[1]{ 
+\newcommand\skillstext[1]{
 	\renewcommand{\skillstext}{
 		\begin{flushleft}
-			\foreach [count=\i] \x/\y in {#1}{ 
+			\foreach [count=\i] \x/\y in {#1}{
 				\x$ \star $\y
 			}
 		\end{flushleft}
@@ -128,11 +128,11 @@
 		{\Large\color{black!80}\cvjobtitle}
 
 		%------------------------------------------------
-		
+
 		{\Large\color{black!80}\cvsubtitle}
-		
+
 		%------------------------------------------------
-		
+
 
 		\renewcommand{\arraystretch}{1.6}
 		\begin{tabular}{p{0.5cm} @{\hskip 0.5cm}p{5cm}}
@@ -146,7 +146,7 @@
 		%------------------------------------------------
 
 		\profilesection{About me}{2.7cm}
-			
+
 		\begin{flushleft}
 			\aboutme
 		\end{flushleft}
@@ -154,25 +154,25 @@
 		%------------------------------------------------
 
 		\profilesection{Computer Skills}{0.7cm}
-		
+
 		\begin{flushleft}
 			\skillz
 		\end{flushleft}
 
 
 		%(*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]
-		
+
 		%------------------------------------------------
-	
+
 		\profilesection{Hobbies}{3.2cm}
-		
+
 		\normalsize
-				
+
 		\begin{flushleft}
 			\hobbies
 		\end{flushleft}
-		
-			
+
+
 	\end{textblock}
 }
 
@@ -182,7 +182,7 @@
 
 % Command to create the rounded boxes around the first three letters of section titles
 \newcommand*\round[2]{%
-	\tikz[baseline=(char.base)]\node[anchor=north west, draw,rectangle, rounded corners, inner sep=1.6pt, minimum size=5.5mm, text height=3.6mm, fill=#2,#2,text=white](char){#1};%
+	\tikz[baseline=(char.base)]\node[anchor=north west, draw,rectangle, rounded corners, inner sep=1.6pt, minimum size=5.5mm, text height=4.0mm, fill=#2,#2,text=white](char){#1};%
 }
 
 \newcounter{colorCounter}
