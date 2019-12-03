@@ -33,7 +33,7 @@
 \definecolor{white}{RGB}{255,255,255}
 \definecolor{gray}{HTML}{4D4D4D}
 \definecolor{sidecolor}{HTML}{E7E7E7}
-\definecolor{maincolor}{HTML}{2eb82e}
+\definecolor{maincolor}{HTML}{FF872E}
 \definecolor{maingray}{HTML}{B9B9B9}
 \definecolor{lightblue}{HTML}{00B300}
 \definecolor{lightgreen}{HTML}{49CA49}
@@ -129,7 +129,7 @@
 
 		%------------------------------------------------
 
-		{\Large\color{black!80}\cvsubtitle}
+		{\large\color{black!80}\cvsubtitle}
 
 		%------------------------------------------------
 

@@ -31,12 +31,12 @@
 \profilepic{} % Profile picture
 
 \cvname{Remi Marchand} % Your name
-\cvjobtitle{B.Sc, Honours Biology,} % Job title/career
-\cvsubtitle{Computer Science Minor}
+\cvjobtitle{Web Developer} % Job title/career
+\cvsubtitle{B.Sc with a Minor in\\Computer Science}
 
 \cvdate{}
-\cvaddress{Waterloo, ON} % Short address/location, use \newline if more than 1 line is required
-\cvsite{https://github.com/Remimstr} % Personal website
+\cvaddress{Kitchener, ON} % Short address/location, use \newline if more than 1 line is required
+\cvsite{https://remimstr.com} % Personal website
 \cvnumberphone{(647) 995-3645} % Phone number
 \cvmail{remimarchand@mail.com} % Email address
 
@@ -49,45 +49,36 @@
 %----------------------------------------------------------------------------------------
 
 \aboutme{\begin{itemize}
-		\renewcommand\labelitemi{--}
-	\item{Software developer with a range of interests from Linux to React}
-	\item{A curiosity that has driven me to use a customized Arch Linux install as my daily OS and to become proficient in VIM}
-		\item{I jump on the opportunity to implement new technologies (previously React + Redux, Docker, Elm, and more) of my own accord}
-		\item{Coursework in Python, C, C++, Bash, and SQL; self-taught most other skills on the job}
-		\item{Familiar writing clean, modular code and using VCS such as Git}
-		\end{itemize}
+	\renewcommand\labelitemi{--}
+	\item{Software developer with a range of interests from Linux to React - focus on front-end}
+	\item{A curiosity that has driven me to use Arch Linux as my daily OS, build a 47-key mechanical keyboard, and become proficient in VIM}
+	\item{I jump on the opportunity to implement new technologies (React + Redux, Docker, Elm, and more) of my own accord}
+	\item{Coursework in Python, C, C++, Bash, and SQL; self-taught most other skills on the job}
+	\item{Familiar writing clean, modular code and using VCS such as Git}
+\end{itemize}
 }
 
 %----------------------------------------------------------------------------------------
 %	 SKILLS
 %----------------------------------------------------------------------------------------
 
-% Skill bar section, each skill must have a value between 0 an 6 (float)
-\skills{{Passion for Aquiring New Skills/5.9},
-		{Web Development/1.5},
-		{VCS - Git/3},
-		{Data Science/4.5},
-		{Python/4.0},
-		{Java/1.5},
-		{C/2.3}}
-
 \skillz{
 	\renewcommand\labelitemi{--}
-	{\color{red!60!black}General}
+	{\color{orange!60!black}General}
 	\begin{itemize}
-		\item{Bash, Git, Docker, REST APIs, Unit Testing, E2E Testing, Automated Deployment, CI}
+		\item{Bash, Git, Docker, REST APIs, Unit Testing, E2E Testing, CI + CD}
 	\end{itemize}
-	{\color{red!60!black}Web Development}
+	{\color{orange!60!black}Languages}
 	\begin{itemize}
-		\item{React, Redux, Webpack, Node, AngularJS, Express, Jest/Mocha/Chai, Cypress}
+		\item{ES6+, Python, HTML, CSS, C++, C, (strong interest in Rust)}
 	\end{itemize}
-	{\color{red!60!black}Databases}
+	{\color{orange!60!black}Web Development}
+	\begin{itemize}
+		\item{React, Redux, Webpack, Node, Jest/Mocha/Chai, Puppeteer, AngularJS, Express}
+	\end{itemize}
+	{\color{orange!60!black}Databases}
 	\begin{itemize}
 		\item{MongoDB, Elasticsearch, SQL, (interest in Neo4j)}
-	\end{itemize}
-	{\color{red!60!black}Languages}
-	\begin{itemize}
-		\item{ECMAScript 2015, Python, Elm, Coffeescript, C++, C}
 	\end{itemize}
 }
 
@@ -98,8 +89,8 @@
 
 \hobbies{\begin{itemize}
 		\renewcommand\labelitemi{--}
-	  \item{Shameless music nerd; pianist, violinist, listener of many soundtracks}
-		\item{Exploratory home cook; signature dish: sweet and sour fish tiles}
+	  \item{Shameless music nerd; pianist, violinist, listener of soundtracks}
+		\item{Exploratory home cook; signature dish: teryiaki salmon}
 		\item{Fitness enthusiast in training}
 		\end{itemize}
 }
@@ -116,21 +107,22 @@
 \section{Work Experience}
 
 \begin{twenty} % Environment for a list with descriptions, where descriptions are in list format
-  \twentyitem{Present-\\July 2018}{Software Engineer}{Acerta, Kitchener}{
+  \twentyitem{Present-\\Jan 2018}{Software Engineer}{Acerta, Kitchener}{
     \begin{itemize}
-      \item{Led an effort to design and develop a web application in React that displays Acerta's results in a way that provides meaningful, data-driven insights to clients}
-			\item{Took ownership over all aspects of the product including its architecture, configuration, and testing to meet tight deadlines and produce a stable, reliable product}
+      \item{Led an effort to design and develop web dashboards in React to display Acerta's machine learning results for the purpose of providing meaningful, data-driven insights to clients}
+			\item{Took ownership over all aspects of the front-end including its architecture and testing to meet tight deadlines and ship product}
+			\item{Guided other team members (interns and peers) towards our vision}
       \item{Participated as a member of the technical team to enforce git practices, perform code reviews, and participate in sprint meetings}
     \end{itemize}}
 	\twentyitem{Fall 2016}{Full-Stack Web Developer}{Ontario Institute for Cancer Research, Toronto}{
 		\begin{itemize}
 			\item{Worked on a wide range of deliverables including unit testing and deployment to help gain further funding for the project}
-			\item{Refactored and updated an old codebase (2014 MEAN stack) to include new technologies including Docker and Webpack}
+			\item{Modernized an old codebase with tech such as Docker and Webpack}
 		\end{itemize}}
 	\twentyitem{Spring 2016}{Bioinformatics Research Assistant}{National Microbiology Laboratory, Guelph}{
 		\begin{itemize}
-			\item{Created tools for the curation of > 63,000 Salmonella samples to produce a collection of metadata for further analysis}
-			\item{Implemented automation using custom spellchecker and controlled list modules reducing manual curation required}
+			\item{Implemented automated curation of > 63,000 Salmonella samples using custom spellchecker and controlled list modules}
+			\item{Significantly reduced manual curation required}
 		\end{itemize}}
 	\twentyitem{Fall 2015}{Computational Cancer Genomics}{SickKids Hospital, Toronto}{
 		\begin{itemize}
@@ -141,48 +133,36 @@
 	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
 \end{twenty}
 
-
 %----------------------------------------------------------------------------------------
-%	 Volunteer Experience
+%	 Additional Experience
 %----------------------------------------------------------------------------------------
 
-\section{Volunteer Experience}
+\section{Additional Experience}
 
 \begin{twenty} % Environment for a list with descriptions, where descriptions are in list format
-	\twentyitem{Present-\\Oct. 2018}{Front-End Web Developer}{Faculty of Math, University of Waterloo}{
+	\twentyitem{July 2019}{Acerta Hackathon}{Acerta, Kitchener}{
 		\begin{itemize}
-			\item{Built a website to provide a solar array sizing selection tool to the public: {\href{https://github.com/Remimstr/SizingWeb}{\color{blue}https://github.com/Remimstr/SizingWeb}}}
+			\item{Spearheaded an initiative to run a hackathon at work as a way to gain new skills and work with new people}
+			\item{Figured out how to program an arduino so that it could broadcast sound data over wifi (for the exercise)}
+			\item{Guided activity leaders in running their respective sections}
+			\item{Recieved positive feedback from participants and gained confidence in my ability to coordinate medium-sized events}
+	\end{itemize}}
+	\twentyitem{Present-\\June 2019}{Personal Blog}{}{
+		\begin{itemize}
+			\item{Set up a personal blog to learn about web hosting (including wordpress) and to have an online presence: {\href{https://remimstr.com}{\color{blue}https://remimstr.com}}}
+			\item{Began a blog series involving solving leetcode problems in Rust and writing about my solutions}
+		\end{itemize}}
+	\twentyitem{Apr. 2019-\\Oct. 2018}{Front-End Web Developer}{Faculty of Math, University of Waterloo}{
+		\begin{itemize}
+			\item{Worked on a website to provide a solar array sizing selection tool to the public: {\href{https://github.com/Remimstr/SizingWeb}{\color{blue}https://github.com/Remimstr/SizingWeb}}}
 			\item{Took advantage of the opportunity to learn Elm along with functional programming paradigms}
 		\end{itemize}}
-	\twentyitem{2016-2018}{Science Ambassador}{Faculty of Science, University of Waterloo}{
+	\twentyitem{Present-\\July 2019}{Coding Meetup Attendee}{Kitchener/Waterloo}{
 		\begin{itemize}
-			\item{Dedicated time to inform prospective students about life at UW}
-		\end{itemize}}
-	\twentyitem{2013-2014}{Advanced Medical First Responder}{Campus Response Team}{
-		\begin{itemize}
-			\item{Volunteered close to ninety hours to provide first aid on campus}
-		\end{itemize}}
+			\item{Attend meetups as a way to network, learn new things, and share my work (presented my keyboard at a DevHouse Waterloo event!)}
+	\end{itemize}}
 			%\twentyitem{<dates>}{<title>}{<location>}{<description>}
 \end{twenty}
-
-%----------------------------------------------------------------------------------------
-%	 Relevant Courses
-%----------------------------------------------------------------------------------------
-
-\section{Relevant Courses}
-
-\begin{twenty} % Environment for a list with descriptions
-	\twentyitem{Fall 2017}{CS 246 - Object Oriented Software Development}{}{
-		\begin{itemize}
-			\item{Learned the fundamental principles of object oriented\\ programming and software development in C++}
-		\end{itemize}}
-	\twentyitem{Fall 2017}{CS 338 - Relational Databases}{}{
-		\begin{itemize}
-			\item{Became comfortable with relational algebra, SQL,\\ entity-relationship diagrams, and their applications}
-		\end{itemize}}
-	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
-\end{twenty}
-
 
 %----------------------------------------------------------------------------------------
 %	 Awards
@@ -191,9 +171,6 @@
 \section{Awards}
 
 \begin{twentyshort} % Environment for a short list with no descriptions
-	\twentyitemshort{Winter 2016}{Dean's Honour List}
-	\twentyitemshort{April 2014}{Grebel Student Life Award for contributions to residence}
-	\twentyitemshort{June 2013}{English and Music Awards, Grade 12}
 	\twentyitemshort{June 2010}{First Class Honours with Distinction for 90\% on grade 10 piano exam}
 	%\twentyitemshort{<dates>}{<title/description>}
 \end{twentyshort}
