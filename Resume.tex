@@ -1,180 +1,101 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Twenty Seconds Resume/CV
-% LaTeX Template
-% Version 1.0 (14/7/16)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by
-% Vel (vel@LaTeXTemplates.com)
-%
-% License:
-% The MIT License (see included LICENSE file)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
 
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
 
-\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
-\hyphenpenalty=10000
+% For mathematical symbols
+\usepackage{amsmath}
 
-%----------------------------------------------------------------------------------------
-%	 PERSONAL INFORMATION
-%----------------------------------------------------------------------------------------
-
-% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
-
-\profilepic{} % Profile picture
-
-\cvname{Remi Marchand} % Your name
-\cvjobtitle{Web Developer} % Job title/career
-\cvsubtitle{B.Sc with a Minor in\\Computer Science,\\University of Waterloo}
-
-\cvdate{}
-\cvmail{hireme@remimstr.com} % Email address
-\cvsite{https://remimstr.com} % Personal website
-\cvnumberphone{(647) 995-3645} % Phone number
-\cvaddress{Kitchener, ON \newline(open to relocation)} % Short address/location, use \newline if more than 1 line is required
-
-%----------------------------------------------------------------------------------------
+% Set applicant's personal data for header
+\name{Remi Marchand}
+\address{1 Gormley Court \linebreak Richmond Hill, ON}
+\contacts{647-995-3645 \linebreak hireme@remimstr.com}
 
 \begin{document}
 
-%----------------------------------------------------------------------------------------
-%	 ABOUT ME
-%----------------------------------------------------------------------------------------
-
-\aboutme{\begin{itemize}
-	\renewcommand\labelitemi{--}
-	\item{Software developer with a range of interests from Linux to React - focus on front-end}
-	\item{A curiosity that has driven me to use Arch Linux as my daily OS, build a 47-key mechanical keyboard, and become proficient in VIM}
-	\item{I jump on the opportunity to implement new technologies (React \& Redux, Docker, Elm, and more)}
-	\item{Coursework in Python, C, C++, Bash, and SQL; self-taught most other skills on the job}
-	\item{Experience writing clean, modular code and using VCS such as Git}
-\end{itemize}
-}
-
-%----------------------------------------------------------------------------------------
-%	 SKILLS
-%----------------------------------------------------------------------------------------
-
-\skillz{
-	\renewcommand\labelitemi{--}
-	{\color{orange!60!black}General}
-	\begin{itemize}
-		\item{Bash, Git, Docker, REST APIs, Unit \& E2E Testing, CI \& CD, AWS \& Azure}
-	\end{itemize}
-	{\color{orange!60!black}Languages}
-	\begin{itemize}
-		\item{ES6+, Typescript, Python, HTML, CSS, C++, C, (interest in Rust)}
-	\end{itemize}
-	{\color{orange!60!black}Web Development}
-	\begin{itemize}
-		\item{React, Redux, Webpack, Node, Jest/Mocha/Chai, Puppeteer, AngularJS, Express, Flask}
-	\end{itemize}
-	{\color{orange!60!black}Databases}
-	\begin{itemize}
-		\item{MongoDB, Elasticsearch, SQL, (interest in Neo4j)}
-	\end{itemize}
-}
-
-%----------------------------------------------------------------------------------------
-%	 HOBBIES
-%----------------------------------------------------------------------------------------
-
-
-\hobbies{\begin{itemize}
-		\renewcommand\labelitemi{--}
-	  \item{Shameless music nerd; pianist, violinist, listener of soundtracks}
-		\item{Exploratory home cook; signature dish: teryiaki salmon}
-		\item{Fitness enthusiast in training}
-		\end{itemize}
-}
-
-
-%----------------------------------------------------------------------------------------
-
-\makeprofile % Print the sidebar
-
-%----------------------------------------------------------------------------------------
-%	 WORK EXPERIENCE
-%----------------------------------------------------------------------------------------
-
-\section{Work Experience}
-
-\begin{twenty} % Environment for a list with descriptions, where descriptions are in list format
-  \twentyitem{Present-\\Jan 2018}{Software Engineer}{Acerta, Kitchener}{
-    \begin{itemize}
-      \item{Led an effort to design and develop web dashboards in React to display Acerta's machine learning results for the purpose of providing meaningful, data-driven insights to clients}
-			\item{Took ownership over all aspects of the front-end including its architecture and testing to meet tight deadlines and ship product}
-			\item{Gained valuable experience manipulating and visualizing data in JS and Python (Dash \& Pandas)}
-      \item{Participated as a member of the technical team to enforce git practices, perform code reviews, and participate in sprint meetings}
-    \end{itemize}}
-	\twentyitem{Fall 2016}{Full-Stack Developer Co-op}{Ontario Institute for Cancer Research, Toronto}{
-		\begin{itemize}
-			\item{Worked on a wide range of deliverables including unit testing and deployment to help gain further funding for the project}
-			\item{Modernized an old codebase with tech such as Docker and Webpack}
-		\end{itemize}}
-	\twentyitem{Spring 2016}{Bioinformatics Research Asst. Co-op}{National Microbiology Lab, Guelph}{
-		\begin{itemize}
-			\item{Implemented automated curation of > 63,000 Salmonella samples using custom spellchecker and controlled list modules}
-			\item{Significantly reduced manual curation required}
-		\end{itemize}}
-	\twentyitem{Fall 2015}{Computational Cancer Genomics Co-op}{SickKids Hospital, Toronto}{
-		\begin{itemize}
-			\item{Worked as part of a team to characterize paediatric cancer samples using a high performance computing cluster}
-			\item{Reduced the number of false positive translocations called by our pipeline 10-fold; from an average of 150 to an average of 16}
-      \item{\href{http://science.sciencemag.org/content/361/6405/eaam8419}{\color{blue}http://science.sciencemag.org/content/361/6405/eaam8419}}
-		\end{itemize}}
-	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
-\end{twenty}
-
-%----------------------------------------------------------------------------------------
-%	 Additional Experience
-%----------------------------------------------------------------------------------------
-
-\section{Additional Experience}
-
-\begin{twenty} % Environment for a list with descriptions, where descriptions are in list format
-	\twentyitem{July 2019}{Acerta Hackathon}{Acerta, Kitchener}{
-		\begin{itemize}
-			\item{Spearheaded an initiative to run a hackathon at work as a way to gain new skills and work with new people}
-			\item{Figured out how to program an arduino so that it could broadcast sound data over wifi (for the exercise)}
-			\item{Guided activity leaders in running their respective sections}
-			\item{Recieved positive feedback from participants and gained confidence in my ability to coordinate medium-sized events}
-	\end{itemize}}
-	\twentyitem{Present-\\June 2019}{Personal Website}{}{
-		\begin{itemize}
-			\item{Set up a personal site to learn about web hosting (including wordpress) and to have an online presence: {\href{https://remimstr.com}{\color{blue}https://remimstr.com}}}
-			\item{Began a blog series involving solving leetcode problems in Rust and writing about my solutions}
-		\end{itemize}}
-	\twentyitem{Apr. 2019-\\Oct. 2018}{Front-End Web Developer}{Faculty of Math, University of Waterloo}{
-		\begin{itemize}
-			\item{Worked on a website to provide a solar array sizing selection tool to the public: {\href{https://github.com/Remimstr/SizingWeb}{\color{blue}https://github.com/Remimstr/SizingWeb}}}
-			\item{Took advantage of the opportunity to learn Elm along with functional programming paradigms}
-		\end{itemize}}
-	\twentyitem{Present-\\July 2019}{Coding Meetup Attendee}{Kitchener/Waterloo}{
-		\begin{itemize}
-			\item{Attend meetups as a way to network, learn new things, and share my work (presented my keyboard at a DevHouse Waterloo event!)}
-	\end{itemize}}
-			%\twentyitem{<dates>}{<title>}{<location>}{<description>}
-\end{twenty}
-
-%----------------------------------------------------------------------------------------
-%	 Awards
-%----------------------------------------------------------------------------------------
-
-\section{Awards}
-
-\begin{twentyshort} % Environment for a short list with no descriptions
-	\twentyitemshort{June 2010}{First Class Honours with Distinction for 90\% on grade 10 piano exam}
-	%\twentyitemshort{<dates>}{<title/description>}
-\end{twentyshort}
-
-%----------------------------------------------------------------------------------------
-
+	% Print the header
+	\makeheader
+	
+	% Print the content
+	\begin{cvsection}{Employment}
+		\begin{cvsubsection}{Software Engineer \& Designer}{Acerta}{July 2018 -- Present}
+			\begin{itemize}
+				\item Designed and built LinePulse, the core product which provides machine learning-driven insights to clients.
+				\item Developed over 10 Demo UIs for sales pitches to prospective clients.
+				\item Maximized code reuse and facilitated marketing by splitting our product into modules for different use-cases.
+				\item Mentored co-op students and led initiatives such as a company hackathon.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Full-Stack Developer Intern}{Ontario Institute for Cancer Research}{Fall 2016}	
+			\begin{itemize}
+				\item Helped the project gain further funding by modernizing an old codebase.
+				\item Updated page designs and added new features such as search functionality.
+				\item Reduced deployment effort of the front-end using techologies such as docker-compose and webpack.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Bioinformatics RA Intern}{National Microbiology Lab}{Spring 2016}		
+			\begin{itemize}
+				\item Implemented automated curation of > 63,000 Salmonella samples using a custom spellcheck and controlled list modules, significantly reducing the amount of manual curation required.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Comp. Cancer Genomics Intern}{SickKids Hospital}{Fall 2015}
+			\begin{itemize}
+				\item Contributed towards a publication characterizing a paediatric cancer.
+				\item https://science.sciencemag.org/content/361/6405/eaam8419	
+				\item Reduced the number of false positive translocations called by our pipeline 10-fold; from 150 to 16.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Waterloo, ON}{University of Waterloo}{Fall 2013 -- May 2018}
+			\begin{itemize}
+				\item B.Sc. in Biology with Minor in Computer Science.
+				\item Coursework: C/C++/Python; Databases; Algorithms; Networking; Bioinformatics Algorithms.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Technical Experience}
+		\begin{cvsubsection}{Projects}{}{}
+			\begin{itemize}
+				\item \textbf{COVID-19 Globeview} (2020). Developed a tool for visualizing the spread of COVID-19 on a globe broken down by region and time. Garnered over 10k website visits from posting on reddit and facebook.
+				\item \textbf{Personal Website} (2020). Portfolio site for showing off my work: https://remimstr.com
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Languages and Technologies}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item \textbf{Languages:} JavaScript; TypeScript; CSS; Python; SQL; C (prior experience), C++ (prior experience)
+				\item \textbf{Frameworks \& Libraries:} React, Redux, Svelte, AngularJS, OpenAPI/Swagger
+				\item \textbf{Tools:} Docker, Linux, Microsoft Azure, Node.js, Webpack, Nginx, MongoDB (prior experience), Elasticsearch (prior experience)
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
 \end{document}
