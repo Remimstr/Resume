@@ -184,6 +184,15 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
 }{}
 \makeatother
 
+% Print a block of text
+\makeatletter
+\newenvironment{textblock}[1]{
+	\begin{adjustwidth}{\sectionheadermargin}{\sectionheadermargin}
+		{#1}
+	\begin{adjustwidth}
+}
+\makeatother
+
 % Print a subsection
 \makeatletter
 % Define toggles checking if titles were defined

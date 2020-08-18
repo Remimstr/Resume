@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Arch Linux)  (format=lualatex 2020.8.3)  3 AUG 2020 16:27
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Arch Linux)  (format=lualatex 2020.8.3)  18 AUG 2020 14:57
  restricted system commands enabled.
 **Resume.tex
 (./Resume.tex
@@ -563,7 +563,7 @@ kokoko
 \spaceskip 
 
 LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/sc' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/n' instead on input line 40.
+(Font)              using `TU/TimesNewRoman(0)/m/n' instead on input line 39.
 
 [1
 
@@ -574,17 +574,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 )
 
 Here is how much of LuaTeX's memory you used:
- 7840 strings out of 480885
+ 7842 strings out of 480885
  125171,662416 words of node,token memory allocated
  506 words of node memory still in use:
    7 hlist, 2 vlist, 3 rule, 2 glue, 4 kern, 1 glyph, 7 attribute, 52 glue_spec,
  7 attribute_list, 1 write nodes
-   avail lists: 1:1,2:663,3:194,4:5,5:65,6:50,7:3051,8:1,9:284,10:4,11:215
- 25234 multiletter control sequences out of 65536+600000
+   avail lists: 1:1,2:697,3:209,4:5,5:67,6:52,7:3580,8:1,9:299,10:4,11:253
+ 25236 multiletter control sequences out of 65536+600000
  68 fonts using 8590363 bytes
  61i,16n,118p,793b,548s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/fonts/TTF/timesbd.ttf></usr/share/fonts/TTF/times.ttf>
-Output written on Resume.pdf (1 page, 70538 bytes).
+Output written on Resume.pdf (1 page, 70983 bytes).
 
 PDF statistics: 22 PDF objects out of 1000 (max. 8388607)
  12 compressed objects within 1 object stream
