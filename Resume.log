@@ -1,62 +1,66 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Arch Linux)  (format=lualatex 2020.8.3)  26 AUG 2020 19:04
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/W32TeX)  (format=lualatex 2020.11.2)  3 NOV 2020 09:30
  restricted system commands enabled.
 **Resume.tex
 (./Resume.tex
-LaTeX2e <2020-02-02> patch level 5
-Lua module: luaotfload-main 2020-05-06 3.14 luaotfload entry point
-Lua module: luaotfload-init 2020-05-06 3.14 luaotfload submodule / initializatio
+LaTeX2e <2020-10-01> patch level 2
+Lua module: luaotfload-main 2020-09-02 3.15 luaotfload entry point
+Lua module: luaotfload-init 2020-09-02 3.15 luaotfload submodule / initializatio
 n
-Lua module: lualibs 2020-05-01 2.71 ConTeXt Lua standard libraries.
-Lua module: lualibs-extended 2020-05-01 2.71 ConTeXt Lua libraries -- extended c
+Lua module: lualibs 2020-08-31 2.72 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2020-08-31 2.72 ConTeXt Lua libraries -- extended c
 ollection.
-Lua module: luaotfload-log 2020-05-06 3.14 luaotfload submodule / logging
-Lua module: luaotfload-parsers 2020-05-06 3.14 luaotfload submodule / filelist
-Lua module: luaotfload-configuration 2020-05-06 3.14 luaotfload submodule / conf
+Lua module: luaotfload-log 2020-09-02 3.15 luaotfload submodule / logging
+Lua module: luaotfload-parsers 2020-09-02 3.15 luaotfload submodule / parsers
+Lua module: luaotfload-configuration 2020-09-02 3.15 luaotfload submodule / conf
 ig file reader
-luaotfload | conf : Root cache directory is "/home/remi/.texlive/texmf-var/luate
-x-cache/generic-dev/names".
-luaotfload | init : Loading fontloader "fontloader-2020-05-06.lua" from kpse-res
-olved path "/usr/share/texmf-dist/tex/luatex/luaotfload/fontloader-2020-05-06.lu
-a".
+luaotfload | conf : Root cache directory is "C:/texlive/2020/texmf-var/luatex-ca
+che/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2020-08-31.lua" from kpse-res
+olved path "c:/texlive/2020/texmf-dist/tex/luatex/luaotfload/fontloader-2020-08-
+31.lua".
 Lua-only attribute luaotfload@noligature = 1
 Lua-only attribute luaotfload@syllabe = 2
 luaotfload | init : Context OpenType loader version 0x1.8e353f7ced917p+1
-Lua module: luaotfload-fallback 2020-05-06 3.14 luaotfload submodule / fallback
-Lua module: luaotfload-multiscript 2020-05-06 3.14 luaotfload submodule / multis
+Lua module: luaotfload-fallback 2020-09-02 3.15 luaotfload submodule / fallback
+Lua module: luaotfload-multiscript 2020-09-02 3.15 luaotfload submodule / multis
 cript
-Lua module: luaotfload-script 2020-05-06 3.14 luaotfload submodule / Script help
+Lua module: luaotfload-script 2020-09-02 3.15 luaotfload submodule / Script help
 ers
 Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
 Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
-Lua module: luaotfload-loaders 2020-05-06 3.14 luaotfload submodule / callback h
+Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
+Lua module: luaotfload-loaders 2020-09-02 3.15 luaotfload submodule / callback h
 andling
 Inserting `luaotfload.define_font' at position 1 in `define_font'.
-Lua module: luaotfload-database 2020-05-06 3.14 luaotfload submodule / database
-Lua module: luaotfload-unicode 2020-05-06 3.14 luaotfload submodule / Unicode he
+Lua module: luaotfload-database 2020-09-02 3.15 luaotfload submodule / database
+Lua module: luaotfload-unicode 2020-09-02 3.15 luaotfload submodule / Unicode he
 lpers
-Lua module: luaotfload-colors 2020-05-06 3.14 luaotfload submodule / color
+Lua module: luaotfload-colors 2020-09-02 3.15 luaotfload submodule / color
 Lua-only attribute luaotfload_color_attribute = 3
-Lua module: luaotfload-resolvers 2020-05-06 3.14 luaotfload submodule / resolver
+Lua module: luaotfload-resolvers 2020-09-02 3.15 luaotfload submodule / resolver
 s
-luaotfload | conf : Root cache directory is "/home/remi/.texlive/texmf-var/luate
-x-cache/generic-dev/names".
-Lua module: luaotfload-features 2020-05-06 3.14 luaotfload submodule / features
-Lua module: luaotfload-harf-define 2020-05-06 3.14 luaotfload submodule / databa
-se
+luaotfload | conf : Root cache directory is "C:/texlive/2020/texmf-var/luatex-ca
+che/generic/names".
+Lua module: luaotfload-features 2020-09-02 3.15 luaotfload submodule / features
+Lua module: luaotfload-harf-define 2020-09-02 3.15 luaotfload submodule / HarfBu
+zz font loading
 Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
 Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
-Lua module: luaotfload-harf-plug 2020-05-06 3.14 luaotfload submodule / database
+Lua module: luaotfload-harf-plug 2020-09-02 3.15 luaotfload submodule / HarfBuzz
+ shaping
 Inserting `Harf pre_output_filter callback' at position 1 in `pre_output_filter'
 .
 Inserting `Harf wrapup_run callback' at position 1 in `wrapup_run'.
 Inserting `Harf finish_pdffile callback' at position 1 in `finish_pdffile'.
 Inserting `Harf glyph_info callback' at position 1 in `glyph_info'.
-Lua module: luaotfload-letterspace 2020-05-06 3.14 luaotfload submodule / color
-Lua module: luaotfload-embolden 2020-05-06 3.14 luaotfload submodule / color
-Lua module: luaotfload-notdef 2020-05-06 3.14 luaotfload submodule / color
-Lua module: luaotfload-suppress 2020-05-06 3.14 luaotfload submodule / suppress
-Lua module: luaotfload-szss 2020-05-06 3.14 luaotfload submodule / color
-Lua module: luaotfload-auxiliary 2020-05-06 3.14 luaotfload submodule / auxiliar
+Lua module: luaotfload-letterspace 2020-09-02 3.15 luaotfload submodule / letter
+spacing
+Lua module: luaotfload-embolden 2020-09-02 3.15 luaotfload submodule / embolden
+Lua module: luaotfload-notdef 2020-09-02 3.15 luaotfload submodule / notdef
+Lua module: luaotfload-suppress 2020-09-02 3.15 luaotfload submodule / suppress
+Lua module: luaotfload-szss 2020-09-02 3.15 luaotfload submodule / Special featu
+re handling
+Lua module: luaotfload-auxiliary 2020-09-02 3.15 luaotfload submodule / auxiliar
 y functions
 Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
 font'.
@@ -69,150 +73,156 @@ t_unsafe'.
 Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
-Lua module: luaotfload-tounicode 2020-05-06 3.14 luaotfload submodule / tounicod
+Lua module: luaotfload-tounicode 2020-09-02 3.15 luaotfload submodule / tounicod
 e
 Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
-. L3 programming layer <2020-06-03> (./mcdowellcv.cls
+. L3 programming layer <2020-10-27> xparse <2020-03-03> (./mcdowellcv.cls
 Document Class: mcdowellcv 2017/06/18 v1.2.0 McDowell CV class
-(/usr/share/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-(/usr/share/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
-luaotfload | db : Font names database loaded from /home/remi/.texlive/texmf-var/
-luatex-cache/generic-dev/names/luaotfload-names.luc)
-\c@part=\count163
-\c@section=\count164
-\c@subsection=\count165
-\c@subsubsection=\count166
-\c@paragraph=\count167
-\c@subparagraph=\count168
-\c@figure=\count169
-\c@table=\count170
+(c:/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(c:/texlive/2020/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/texlive/2020/texmf-var/luat
+ex-cache/generic/names/luaotfload-names.luc)
+\c@part=\count171
+\c@section=\count172
+\c@subsection=\count173
+\c@subsubsection=\count174
+\c@paragraph=\count175
+\c@subparagraph=\count176
+\c@figure=\count177
+\c@table=\count178
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
-\bibindent=\dimen134
+\bibindent=\dimen138
 )
-(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+(c:/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+(c:/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+(c:/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+(c:/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count171
-\Gm@cntv=\count172
-\c@Gm@tempcnt=\count173
-\Gm@bindingoffset=\dimen135
-\Gm@wd@mp=\dimen136
-\Gm@odd@mp=\dimen137
-\Gm@even@mp=\dimen138
-\Gm@layoutwidth=\dimen139
-\Gm@layoutheight=\dimen140
-\Gm@layouthoffset=\dimen141
-\Gm@layoutvoffset=\dimen142
+\Gm@cnth=\count179
+\Gm@cntv=\count180
+\c@Gm@tempcnt=\count181
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
 \Gm@dimlist=\toks16
 )
-(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty
-(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2020-06-03 L3 programming layer (loader) 
+(c:/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.sty
+(c:/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(c:/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-10-27 L3 programming layer (loader) 
 
-(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count174
-\l__pdf_internal_box=\box45
+(c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2020-09-24 L3 backend support: PDF output (LuaTeX)
+\l__kernel_color_stack_int=\count182
+\l__pdf_internal_box=\box47
 ))
-Package: xparse 2020-05-15 L3 Experimental document command parser
+Package: xparse 2020-10-27 L3 Experimental document command parser
 
-(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex
-\l__xparse_current_arg_int=\count175
-\g__xparse_grabber_int=\count176
-\l__xparse_m_args_int=\count177
-\l__xparse_v_nesting_int=\count178
-))
+(c:/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex))
 Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
 Lua module: fontspec 2020/02/21 2.7i Font selection for XeLaTeX and LuaLaTeX
-(/usr/share/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+(c:/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count179
-\l__fontspec_language_int=\count180
-\l__fontspec_strnum_int=\count181
-\l__fontspec_tmp_int=\count182
-\l__fontspec_tmpa_int=\count183
-\l__fontspec_tmpb_int=\count184
-\l__fontspec_tmpc_int=\count185
-\l__fontspec_em_int=\count186
-\l__fontspec_emdef_int=\count187
-\l__fontspec_strong_int=\count188
-\l__fontspec_strongdef_int=\count189
-\l__fontspec_tmpa_dim=\dimen143
-\l__fontspec_tmpb_dim=\dimen144
-\l__fontspec_tmpc_dim=\dimen145
+\l__fontspec_script_int=\count183
+\l__fontspec_language_int=\count184
+\l__fontspec_strnum_int=\count185
+\l__fontspec_tmp_int=\count186
+\l__fontspec_tmpa_int=\count187
+\l__fontspec_tmpb_int=\count188
+\l__fontspec_tmpc_int=\count189
+\l__fontspec_em_int=\count190
+\l__fontspec_emdef_int=\count191
+\l__fontspec_strong_int=\count192
+\l__fontspec_strongdef_int=\count193
+\l__fontspec_tmpa_dim=\dimen147
+\l__fontspec_tmpb_dim=\dimen148
+\l__fontspec_tmpc_dim=\dimen149
 
-(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+(c:/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 )
-(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
-luaotfload | cache : Lookup cache loaded from /home/remi/.texlive/texmf-var/luat
-ex-cache/generic-dev/names/luaotfload-lookup-cache.luc.
-luaotfload | aux : font no 28 (nil) defines no feature for script latn
-luaotfload | aux : font no 28 (nil) defines no feature for script dflt
+(c:/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+luaotfload | cache : Lookup cache loaded from C:/texlive/2020/texmf-var/luatex-c
+ache/generic/names/luaotfload-lookup-cache.luc.
+luaotfload | aux : font no 28 (nil) does not define feature liga for script latn
+ with language dflt
 
 Package fontspec Warning: OpenType feature 'Ligatures=CommonOff' (liga) not
 (fontspec)                available for font 'TimesNewRoman' with script
 (fontspec)                'CustomDefault' and language 'Default'.
 
-
-Package fontspec Warning: OpenType feature 'Ligatures=DiscretionaryOff' (dlig)
-(fontspec)                not available for font 'TimesNewRoman' with script
-(fontspec)                'CustomDefault' and language 'Default'.
-
+luaotfload | aux : font no 33 (nil) does not define feature liga for script latn
+ with language dflt
 
 Package fontspec Warning: OpenType feature 'Ligatures=CommonOff' (liga) not
 (fontspec)                available for font 'TimesNewRoman' with script
 (fontspec)                'CustomDefault' and language 'Default'.
 
+luaotfload | aux : font no 33 (nil) does not define feature liga for script latn
+ with language dflt
 
-Package fontspec Warning: OpenType feature 'Ligatures=DiscretionaryOff' (dlig)
-(fontspec)                not available for font 'TimesNewRoman' with script
+Package fontspec Warning: OpenType feature 'Ligatures=CommonOff' (liga) not
+(fontspec)                available for font 'TimesNewRoman' with script
 (fontspec)                'CustomDefault' and language 'Default'.
 
+luaotfload | aux : font no 34 (nil) does not define feature liga for script latn
+ with language dflt
 
 Package fontspec Warning: OpenType feature 'Ligatures=CommonOff' (liga) not
 (fontspec)                available for font 'TimesNewRoman/B' with script
 (fontspec)                'CustomDefault' and language 'Default'.
 
+luaotfload | aux : font no 34 (nil) does not define feature liga for script latn
+ with language dflt
 
-Package fontspec Warning: OpenType feature 'Ligatures=DiscretionaryOff' (dlig)
-(fontspec)                not available for font 'TimesNewRoman/B' with script
+Package fontspec Warning: OpenType feature 'Ligatures=CommonOff' (liga) not
+(fontspec)                available for font 'TimesNewRoman/B' with script
 (fontspec)                'CustomDefault' and language 'Default'.
 
+luaotfload | aux : font no 35 (nil) does not define feature liga for script latn
+ with language dflt
 
 Package fontspec Warning: OpenType feature 'Ligatures=CommonOff' (liga) not
 (fontspec)                available for font 'TimesNewRoman/I' with script
 (fontspec)                'CustomDefault' and language 'Default'.
 
+luaotfload | aux : font no 35 (nil) does not define feature liga for script latn
+ with language dflt
 
-Package fontspec Warning: OpenType feature 'Ligatures=DiscretionaryOff' (dlig)
-(fontspec)                not available for font 'TimesNewRoman/I' with script
+Package fontspec Warning: OpenType feature 'Ligatures=CommonOff' (liga) not
+(fontspec)                available for font 'TimesNewRoman/I' with script
 (fontspec)                'CustomDefault' and language 'Default'.
 
+luaotfload | aux : font no 36 (nil) does not define feature liga for script latn
+ with language dflt
 
 Package fontspec Warning: OpenType feature 'Ligatures=CommonOff' (liga) not
 (fontspec)                available for font 'TimesNewRoman/BI' with script
 (fontspec)                'CustomDefault' and language 'Default'.
 
+luaotfload | aux : font no 36 (nil) does not define feature liga for script latn
+ with language dflt
 
-Package fontspec Warning: OpenType feature 'Ligatures=DiscretionaryOff' (dlig)
-(fontspec)                not available for font 'TimesNewRoman/BI' with
-(fontspec)                script 'CustomDefault' and language 'Default'.
+Package fontspec Warning: OpenType feature 'Ligatures=CommonOff' (liga) not
+(fontspec)                available for font 'TimesNewRoman/BI' with script
+(fontspec)                'CustomDefault' and language 'Default'.
 
 
 Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
@@ -225,106 +235,118 @@ es={TeX,
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"TimesNewRoman:mode=node;language=dflt;+tlig;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             <->"TimesNewRoman:mode=node;script=latn;language=dflt;+tl
+ig;-dlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman:mode=base;script=latn;language=dflt;+tl
+ig;-dlig;+smcp;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"TimesNewRoman/B:mode=node;language=dflt;+tlig;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             <->"TimesNewRoman/B:mode=node;script=latn;language=dflt;+
+tlig;-dlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/B:mode=base;script=latn;language=dflt;+
+tlig;-dlig;+smcp;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"TimesNewRoman/I:mode=node;language=dflt;+tlig;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             <->"TimesNewRoman/I:mode=node;script=latn;language=dflt;+
+tlig;-dlig;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/I:mode=base;script=latn;language=dflt;+
+tlig;-dlig;+smcp;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"TimesNewRoman/BI:mode=node;language=dflt;+tlig;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             <->"TimesNewRoman/BI:mode=node;script=latn;language=dflt;
++tlig;-dlig;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/BI:mode=base;script=latn;language=dflt;
++tlig;-dlig;+smcp;"
 
-(/usr/share/texmf-dist/tex/latex/parskip/parskip.sty
-Package: parskip 2020-05-19 v2.0e non-zero parskip adjustments
+(c:/texlive/2020/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2020-06-15 v2.0f non-zero parskip adjustments
 
-(/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+(c:/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 
-(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+(c:/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(/usr/share/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+(c:/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
-(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count190
+(c:/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count194
 ))
-(/usr/share/texmf-dist/tex/latex/tools/array.sty
-Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen146
-\ar@mcellbox=\box46
-\extrarowheight=\dimen147
+(c:/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen150
+\ar@mcellbox=\box48
+\extrarowheight=\dimen151
 \NC@list=\toks17
 \extratabsurround=\skip49
 \backup@length=\skip50
-\ar@cellbox=\box47
+\ar@cellbox=\box49
 )
-(/usr/share/texmf-dist/tex/latex/tabu/tabu.sty
+(c:/texlive/2020/texmf-dist/tex/latex/tabu/tabu.sty
 Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
 
-(/usr/share/texmf-dist/tex/latex/varwidth/varwidth.sty
+(c:/texlive/2020/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box48
-\sift@deathcycles=\count191
-\@vwid@loff=\dimen148
-\@vwid@roff=\dimen149
+\@vwid@box=\box50
+\sift@deathcycles=\count195
+\@vwid@loff=\dimen152
+\@vwid@roff=\dimen153
 )
-\c@taburow=\count192
-\tabu@nbcols=\count193
-\tabu@cnt=\count194
-\tabu@Xcol=\count195
-\tabu@alloc=\count196
-\tabu@nested=\count197
-\tabu@target=\dimen150
-\tabu@spreadtarget=\dimen151
-\tabu@naturalX=\dimen152
-\tabucolX=\dimen153
-\tabu@Xsum=\dimen154
-\extrarowdepth=\dimen155
-\abovetabulinesep=\dimen156
-\belowtabulinesep=\dimen157
-\tabustrutrule=\dimen158
+\c@taburow=\count196
+\tabu@nbcols=\count197
+\tabu@cnt=\count198
+\tabu@Xcol=\count199
+\tabu@alloc=\count266
+\tabu@nested=\count267
+\tabu@target=\dimen154
+\tabu@spreadtarget=\dimen155
+\tabu@naturalX=\dimen156
+\tabucolX=\dimen157
+\tabu@Xsum=\dimen158
+\extrarowdepth=\dimen159
+\abovetabulinesep=\dimen160
+\belowtabulinesep=\dimen161
+\tabustrutrule=\dimen162
 \tabu@thebody=\toks18
 \tabu@footnotes=\toks19
-\tabu@box=\box49
-\tabu@arstrutbox=\box50
-\tabu@hleads=\box51
-\tabu@vleads=\box52
+\tabu@box=\box51
+\tabu@arstrutbox=\box52
+\tabu@hleads=\box53
+\tabu@vleads=\box54
 \tabu@cellskip=\skip51
 )
-(/usr/share/texmf-dist/tex/latex/changepage/changepage.sty
+(c:/texlive/2020/texmf-dist/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count198
-\cp@tempcnt=\count199
+\c@cp@cntr=\count268
+\cp@tempcnt=\count269
 )
-(/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
+(c:/texlive/2020/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip52
-\enit@outerparindent=\dimen159
+\enit@outerparindent=\dimen163
 \enit@toks=\toks20
-\enit@inbox=\box53
-\enit@count@id=\count266
-\enitdp@description=\count267
+\enit@inbox=\box55
+\enit@count@id=\count270
+\enitdp@description=\count271
 )
-(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+(c:/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/share/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+(c:/texlive/2020/texmf-dist/tex/latex/ifplatform/ifplatform.sty
 Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
 
-(/usr/share/texmf-dist/tex/latex/tools/shellesc.sty
+(c:/texlive/2020/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
-(/usr/share/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-04 v0.32 Utility functions of pdfTeX for LuaTeX (HO)
+(c:/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
 
 
-(/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+(c:/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -332,25 +354,25 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 \pdftexcmds@toks=\toks21
 )
-(/usr/share/texmf-dist/tex/generic/catchfile/catchfile.sty
+(c:/texlive/2020/texmf-dist/tex/generic/catchfile/catchfile.sty
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 
-(/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+(c:/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 ))
-(/usr/share/texmf-dist/tex/generic/iftex/ifluatex.sty
+(c:/texlive/2020/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 ))
-(/usr/share/texmf-dist/tex/latex/microtype/microtype.sty
+(c:/texlive/2020/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
 \MT@toks=\toks22
-\MT@count=\count268
+\MT@count=\count272
 LaTeX Info: Redefining \textls on input line 790.
-\MT@outer@kern=\dimen160
+\MT@outer@kern=\dimen164
 LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
-\MT@listname@count=\count269
+\MT@listname@count=\count273
 
-(/usr/share/texmf-dist/tex/latex/microtype/microtype-luatex.def
+(c:/texlive/2020/texmf-dist/tex/latex/microtype/microtype-luatex.def
 File: microtype-luatex.def 2019/11/18 v2.7d Definitions specific to luatex (RS)
 Module microtype Info: overwriting function `keepligature' on input line 59
 LaTeX Info: Redefining \lsstyle on input line 695.
@@ -359,66 +381,66 @@ LaTeX Info: Redefining \lslig on input line 695.
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-(/usr/share/texmf-dist/tex/latex/microtype/microtype.cfg
+(c:/texlive/2020/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
 )))
-(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2020/01/20 v2.17e AMS math features
+(c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip54
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+(c:/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+(c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks23
-\ex@=\dimen161
+\ex@=\dimen165
 ))
-(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen162
+\pmbraise@=\dimen166
 )
-(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+(c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count270
-LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count271
-\leftroot@=\count272
-LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count273
-\DOTSCASE@=\count274
-LaTeX Info: Redefining \ldots on input line 486.
-LaTeX Info: Redefining \dots on input line 489.
-LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box54
-\strutbox@=\box55
-\big@size=\dimen163
-LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count275
-\c@MaxMatrixCols=\count276
+\inf@bad=\count274
+LaTeX Info: Redefining \frac on input line 236.
+\uproot@=\count275
+\leftroot@=\count276
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count277
+\DOTSCASE@=\count278
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box56
+\strutbox@=\box57
+\big@size=\dimen167
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count279
+\c@MaxMatrixCols=\count280
 \dotsspace@=\muskip16
-\c@parentequation=\count277
-\dspbrk@lvl=\count278
+\c@parentequation=\count281
+\dspbrk@lvl=\count282
 \tag@help=\toks24
-\row@=\count279
-\column@=\count280
-\maxfields@=\count281
+\row@=\count283
+\column@=\count284
+\maxfields@=\count285
 \andhelp@=\toks25
-\eqnshift@=\dimen164
-\alignsep@=\dimen165
-\tagshift@=\dimen166
-\tagwidth@=\dimen167
-\totwidth@=\dimen168
-\lineht@=\dimen169
+\eqnshift@=\dimen168
+\alignsep@=\dimen169
+\tagshift@=\dimen170
+\tagwidth@=\dimen171
+\totwidth@=\dimen172
+\lineht@=\dimen173
 \@envbody=\toks26
 \multlinegap=\skip55
 \multlinetaggap=\skip56
 \mathdisplay@stack=\toks27
-LaTeX Info: Redefining \[ on input line 2859.
-LaTeX Info: Redefining \] on input line 2860.
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
 ) (./Resume.aux)
 \openout1 = Resume.aux
 
@@ -434,7 +456,7 @@ LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 34
 .
 
-(/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
+(c:/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 34.
@@ -553,7 +575,7 @@ LaTeX Info: Redefining \showhyphens on input line 34.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
-(/usr/share/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+(c:/texlive/2020/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
 RS)
 )
@@ -561,33 +583,27 @@ Inserting `luaotfload.letterspace' at position 2 in `pre_linebreak_filter'.
 Inserting `luaotfload.letterspace' at position 2 in `hpack_filter'.
 kokoko
 \spaceskip 
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/sc' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/n' instead on input line 39.
-
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Resume.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-)
+{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+(./Resume.aux))
 
 Here is how much of LuaTeX's memory you used:
- 7842 strings out of 480885
- 125171,662416 words of node,token memory allocated
- 506 words of node memory still in use:
-   7 hlist, 2 vlist, 3 rule, 2 glue, 4 kern, 1 glyph, 7 attribute, 52 glue_spec,
- 7 attribute_list, 1 write nodes
-   avail lists: 1:1,2:731,3:220,4:5,5:68,6:55,7:4035,8:1,9:311,10:4,11:290
- 25236 multiletter control sequences out of 65536+600000
- 68 fonts using 8590363 bytes
- 61i,16n,118p,793b,548s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/share/fonts/TTF/timesbd.ttf></usr/share/fonts/TTF/times.ttf>
-Output written on Resume.pdf (1 page, 71283 bytes).
+ 7618 strings out of 479005
+ 125086,662416 words of node,token memory allocated
+ 520 words of node memory still in use:
+   7 hlist, 2 vlist, 3 rule, 2 glue, 6 kern, 1 glyph, 8 attribute, 52 glue_spec,
+ 8 attribute_list, 1 write nodes
+   avail lists: 2:867,3:442,4:5,5:202,6:112,7:8119,8:1,9:623,10:4,11:570
+ 26813 multiletter control sequences out of 65536+600000
+ 73 fonts using 15861555 bytes
+ 92i,16n,126p,499b,526s stack positions out of 5000i,500n,10000p,200000b,200000s
+<c:/Windows/Fonts/timesbd.ttf><c:/Windows/Fonts/timesbd.ttf><c:/Windows/Fonts/ti
+mes.ttf>
+Output written on Resume.pdf (2 pages, 105796 bytes).
 
-PDF statistics: 22 PDF objects out of 1000 (max. 8388607)
- 12 compressed objects within 1 object stream
+PDF statistics: 32 PDF objects out of 1000 (max. 8388607)
+ 18 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
