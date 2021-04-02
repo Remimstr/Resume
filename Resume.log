@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/W32TeX)  (format=lualatex 2020.11.2)  8 MAR 2021 15:52
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/W32TeX)  (format=lualatex 2020.11.2)  2 APR 2021 08:03
  restricted system commands enabled.
 **Resume.tex
 (./Resume.tex
@@ -593,13 +593,13 @@ Here is how much of LuaTeX's memory you used:
  520 words of node memory still in use:
    7 hlist, 2 vlist, 3 rule, 2 glue, 6 kern, 1 glyph, 8 attribute, 52 glue_spec,
  8 attribute_list, 1 write nodes
-   avail lists: 2:867,3:444,4:7,5:200,6:110,7:8238,8:1,9:618,10:6,11:578
+   avail lists: 2:869,3:442,4:7,5:196,6:108,7:8084,8:1,9:616,10:6,11:568
  26813 multiletter control sequences out of 65536+600000
  73 fonts using 15861555 bytes
  92i,16n,126p,499b,526s stack positions out of 5000i,500n,10000p,200000b,200000s
 <c:/Windows/Fonts/timesbd.ttf><c:/Windows/Fonts/timesbd.ttf><c:/Windows/Fonts/ti
 mes.ttf>
-Output written on Resume.pdf (1 page, 104439 bytes).
+Output written on Resume.pdf (1 page, 105829 bytes).
 
 PDF statistics: 29 PDF objects out of 1000 (max. 8388607)
  16 compressed objects within 1 object stream
